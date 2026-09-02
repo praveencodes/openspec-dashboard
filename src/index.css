@@ -1,0 +1,37 @@
+:root {
+  --app-canvas: var(--pf-t--global--background--color--secondary--default);
+  --app-surface: var(--pf-t--global--background--color--primary--default);
+}
+
+html.pf-v6-theme-dark {
+  --app-canvas: var(--pf-t--global--background--color--primary--default);
+  --app-surface: var(--pf-t--global--background--color--floating--default);
+}
+
+html {
+  color-scheme: light;
+  height: 100%;
+}
+
+html.pf-v6-theme-dark {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body,
+.pf-v6-c-page,
+.pf-v6-c-page__main-container,
+.pf-v6-c-page__main,
+.pf-v6-c-page__main-section {
+  background-color: var(--app-canvas);
+}
+
+#root {
+  isolation: isolate;
+}
