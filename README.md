@@ -2,7 +2,7 @@
 
 Tracks AI-powered operator development for Cert Manager, ZTWIM, SSCSI, Must Gather, and ESO.
 
-Live site: [https://praveencodes.github.io/openspec-dashboard](https://praveencodes.github.io/openspec-dashboard)
+Live site: [https://praveencodes.github.io/openspec-dashboard-revamped](https://praveencodes.github.io/openspec-dashboard-revamped)
 
 ## Run locally
 
